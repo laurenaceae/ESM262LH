@@ -30,7 +30,11 @@ lyric_analysis(
 A data frame with names and sentiment values of top 100 songs from your specified artist
 }
 \description{
-This function takes in an artist name and returns the song names and lyric sentiment values based on for that artist's Billboard Top 100 hits.
+This function takes in an artist name and returns a dataframe of the song names and lyric sentiment values for that artist's Billboard Top 100 hits.
+}
+\examples{
+lyric_analysis(artist = "Britney Spears", dictionary = "QDAP", duplicates = "FALSE", start_year = 1990, end_year = 2010, exact = FALSE) # with maximum specifications
+lyric_analysis(artist = "Madonna") # with minimum specifications
 }
 \author{
 Lauren Harris & Sarah Lam
