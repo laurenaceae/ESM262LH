@@ -5,8 +5,8 @@ Version: 0.1.0
 Author: Lauren Harris & Sarah Lam & Deanna Elliott
 Maintainer: Lauren Harris <lnharris@bren.ucsb.edu>
 Description: This package contains a function (lyric_analysis.R) which takes in a 
-musical artist's name and returns the song names and sentiment values for that 
-artist's top 100 hits.
+musical artist's name and returns the song names and sentiment values for 
+any of that artist's Billboard Top 100 hits.
     The dataframe of musical artists (all_artists.rda) contains songs from the years
 1960 to 2016. Once called, the lyrics of an artist's songs can then be analyzed for 
 sentiment based on the sentiment analysis libraries "GI" or "QDAP".
