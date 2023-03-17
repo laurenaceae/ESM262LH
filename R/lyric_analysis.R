@@ -1,6 +1,6 @@
 #' lyric_analysis
 #'
-#'This function takes in an artist name and returns the song names and sentiment values for that artist's top 100 hits.
+#'This function takes in an artist name and returns the song names and lyric sentiment values based on for that artist's Billboard Top 100 hits.
 #' @author Lauren Harris & Sarah Lam
 #' @param artist The musical artist of interest (case insensitive)
 #' @param dictionary The type of dictionary to use in the sentiment analysis (one of "GI" or "QDAP")

@@ -30,7 +30,7 @@ lyric_analysis(
 A data frame with names and sentiment values of top 100 songs from your specified artist
 }
 \description{
-This function takes in an artist name and returns the song names and sentiment values for that artist's top 100 hits.
+This function takes in an artist name and returns the song names and lyric sentiment values based on for that artist's Billboard Top 100 hits.
 }
 \author{
 Lauren Harris & Sarah Lam
