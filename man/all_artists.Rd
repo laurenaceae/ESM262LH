@@ -17,6 +17,6 @@ A vector of strings.
 all_artists
 }
 \description{
-All unique artists in 'billboard' data. Includes features as unique artists.
+Contains all unique artists in 'billboard' data for a user to search artists function will run on. Includes features as unique artists.
 }
 \keyword{datasets}
