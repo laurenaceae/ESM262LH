@@ -27,7 +27,7 @@ lyric_analysis(
 \item{exact}{True/False. Whether to look for an exact artist match or to use the artist as a prefix. (default is false. if exact, may not return songs that feature other artists)}
 }
 \value{
-A data frame with names and sentiment values of top 100 songs from your specified artist
+A data frame with names and sentiment values of any top 100 songs from your specified artist
 }
 \description{
 This function takes in an artist name and returns a dataframe of the song names and lyric sentiment values for that artist's Billboard Top 100 hits.

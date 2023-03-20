@@ -8,7 +8,7 @@
 #' @param end_year The end of the date range to analyze, including this value (default is the current year, but data goes up to 2016 currently)
 #' @param exact True/False. Whether to look for an exact artist match or to use the artist as a prefix. (default is false. if exact, may not return songs that feature other artists)
 #' @param duplicates True/False. Whether to keep duplicate entries of songs. Default is false. (specifically for songs that were hits for more than one year)
-#' @return A data frame with names and sentiment values of top 100 songs from your specified artist
+#' @return A data frame with names and sentiment values of any top 100 songs from your specified artist
 #' @examples
 #' lyric_analysis(artist = "Britney Spears", dictionary = "QDAP", duplicates = "FALSE", start_year = 1990, end_year = 2010, exact = FALSE) # with maximum specifications
 #' lyric_analysis(artist = "Madonna") # with minimum specifications
