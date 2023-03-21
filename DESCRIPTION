@@ -11,7 +11,9 @@ LazyData: true
 RoxygenNote: 7.2.3
 Imports: 
     billboard,
+    dplyr,
     SentimentAnalysis,
-    SnowballC
+    SnowballC,
+    tidyr
 Depends: 
     R (>= 2.10)
